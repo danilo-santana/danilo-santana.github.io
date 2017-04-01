@@ -1,0 +1,710 @@
+/* reset */
+
+*{
+  -webkit-box-sizing: border-box!important;
+     -moz-box-sizing: border-box!important;
+          box-sizing: border-box!important;
+}
+
+h1, p {
+	font-family: 'Lato', sans-serif;
+}
+
+h2{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+/* =================================================================================== */
+
+/*MAIN*/
+body { 
+	font-size: 1.05em;
+	line-height: 1.25em;
+	font-family: Helvetica Neue, Helvetica, Arial;
+	background: #f9f9f9;
+	color: #555;
+}
+
+a {
+
+	color: #4C9CF1;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+a:hover {
+
+	color: #444;
+
+}
+
+img {
+
+	width: 100%;
+
+}
+
+header {
+
+	background: #fff;
+	width: 100%;
+	height: 76px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	border-bottom: 1px solid #fff;
+	z-index: 100;
+	box-shadow: 0 2px 2px -2px gray;
+
+}
+
+#logo{
+
+	margin: 20px;
+	float: left;
+	width: 200px;
+	height: 40px;
+	background: url(../img/logo.png) no-repeat center;
+	background-color: black;
+	display: block;
+
+}
+
+nav {
+
+	float: right;
+	padding: 20px;	
+
+}
+
+#menu-icon {
+
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: #4C8FEC url(../img/menu-icon.png) center;
+
+}
+
+a:hover#menu-icon {
+
+	background-color: #444;
+	border-radius: 4px 4px 0 0;
+
+}
+
+ul {
+
+	list-style: none;
+
+}
+
+li {
+
+	display: inline-block;
+	float: left;
+	padding: 10px
+
+}
+
+.current {
+
+	color: #2262AD;
+
+}
+
+/* ------------------------- Section 1 ----------------------------*/
+
+.fst-div {
+	width: 100%;
+	height: 550px;
+	background-color: rgb(70,156,255);
+
+
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+
+
+}
+
+.res-div {
+	width: 45%;
+	height: 400px;
+	background-color: black;
+	margin: 0 auto;
+
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+    
+}
+
+/* ------------------------- Section About ----------------------------*/
+
+.about {
+	width: 100%;
+    height: 330px;
+    background-color: white;
+    display: table;
+}
+
+.about h1 {
+    text-align: center;
+    padding-top: 58px;
+    background-color: transparent;
+    margin-top: 0px;
+    padding-bottom: 43px;
+    font-size: 40px;
+}
+
+.about p {
+	text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* ------------------------- Section Skills ----------------------------*/
+
+.skills{
+	background-color: rgb(240,247,255);
+
+}
+
+.alt-row div{
+	height: 300px;
+	
+	
+}
+
+.alt-row img{
+	width: 45px;
+	height: 44px;
+	margin: 0 auto;
+	background-color: transparent;
+}
+
+/* ------------------------- Section Portfolio ----------------------------*/
+
+.latest-work {
+
+	width: 100%; 
+	height: 125px; 
+	background-color: transparent; 
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.latest-work h1{
+	line-height: 100px;
+	background-color: transparent;
+
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.work-content{
+	height: 327px;
+    padding: 10px;
+}
+
+.work-content img{
+	-moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.work-content img:hover{
+	-moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+.work-website{
+	height: 227px;
+	-webkit-box-shadow: 0px 0px 1px 0px rgb(155,155,155);
+	-moz-box-shadow: 0px 0px 1px 0px rgb(155,155,155);
+	box-shadow: 0px 0px 1px 0px rgb(155,155,155);
+}
+
+.work-website img{
+	height: 100%;
+	width: 100%;
+}
+
+.details-wrap{
+	width: 100%;
+	height: auto;
+	-webkit-box-shadow: 0px 0px 1px 0px rgb(155,155,155);
+	-moz-box-shadow: 0px 0px 1px 0px rgb(155,155,155);
+	box-shadow: 0px 0px 1px 0px rgb(155,155,155);
+}
+
+.details-name{
+	width: 100%;
+    background-color: white;
+    height: 51px;
+    padding: 10px;
+}
+
+.details-link{
+	line-height: 33px;
+	font-size: 13px;
+
+}
+
+.details-tec{
+	width: 100%;
+    background-color: rgb(244,244,244);
+    height: 32px;
+    border-top: 1px solid #ebebeb;
+}
+
+.right{
+    float:left;
+    line-height: 33px;
+    padding: 0px 0px 0px 10px;
+    color: #afafaf;
+}
+
+.left{
+    float:right;
+    line-height: 33px;
+    padding: 0px 10px 0px 0px;
+}
+
+.git-icon{
+	vertical-align: -3px;
+	padding-right: 5px;
+}
+
+.btn-all-works{
+	text-align: center;
+	width: 100%!important;
+	padding: 46px;
+}
+
+.btn-all-works a{
+	font-size: 1.5em;
+	color: black;
+	text-decoration: underline;
+}
+
+
+/* ------------------------- Section Portfolio ----------------------------*/
+
+.skills h1 {
+	text-align: center;
+	background-color: rgb(240,247,255);
+	margin: 0;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+.content-skills {
+	text-align: center;
+	padding: 29px;
+}
+
+.content-skills h2{
+	margin-top: 18%;
+	margin-bottom: 7%;
+	font-weight: bold;
+}
+
+.content-skills p {
+	font-size: 14px;
+} 
+/* ==================== Section Hire me ====================*/
+
+.hireme{
+	width: 100%;
+	height: 80px;
+	background-color: rgb(54, 149, 255);
+}
+
+.hireme p{
+	text-align: center;
+	line-height: 80px;
+	font-size: 25px;
+	color: white;
+	font-weight: lighter;
+}
+
+.hireme span{
+	font-weight: bold;
+}
+
+.btn-hire{
+	padding: 10px 37px 10px 37px;
+	background-color: white;
+	border-radius: 15px;
+	color: rgb(54,114,253);
+	font-size: 12px;
+	margin-left: 34px;
+	vertical-align: 5px;
+	pointer-events: none;
+}
+
+
+
+/* ==================== Section Clients ====================*/
+
+.clients {
+	width: 100%;
+	height: 300px;
+	background-color: rgb(240,247,255);
+	display: -webkit-flex;
+	 display:         flex;
+	  -webkit-align-items: center;
+	          align-items: center;
+	  -webkit-justify-content: center;
+	          justify-content: center;
+
+}
+
+.clients h1{
+	text-align: center;
+}
+
+.clients-list{
+ 	padding:5px 0;
+ 	display: table;
+ 	margin: 0 auto;
+}
+
+.clients-list img{
+	width: 144px;
+	height: 39px;
+	background-color: transparent;
+	margin: 0px 10px 0px 10px;
+}
+
+.nav-clientes{
+	 width:70%;
+	 margin:0 auto;
+	 text-align:center;
+	 float: none;
+}
+
+/* ==================== Ultimas postagens ====================*/
+
+
+.latest-posts{
+	max-width: 1090px;
+	min-height: 500px;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: space-between;
+}
+
+/*
+.latest-posts .row{
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: space-between;
+}
+*/
+
+.post-wrap:nth-child(1){
+		margin-top: 100px;
+	
+}
+
+.post-wrap:nth-child(2){
+		margin-top: 80px;
+	
+}
+
+.post-wrap:nth-child(3){
+		margin-top: 120px;
+	
+}
+
+.post-wrap:nth-child(4){
+		margin-top: 7px;
+	
+}
+
+.post-wrap:nth-child(5){
+		
+		margin-top: -42px;
+}
+
+.post-wrap:nth-child(6){
+		margin-top: 50px;
+	
+}
+
+.post-main{
+	width: 100%;
+    border: 1px solid #d3d3d3;
+}
+
+.post-content-wrap{
+	padding: 10px;
+    height: 100px;
+    display: table;
+}
+
+.post-info{
+	    height: 50px;
+	    padding: 10px;
+}
+
+.post-info-left{
+	float: left;
+    line-height: 26px;
+}
+
+.date-post{
+	font-size: 15px;
+}
+
+.comments-post{
+
+}
+
+.post-info-right{
+	float: right;
+	line-height: 26px;
+}
+
+.post-text{
+	margin-top: 9px;
+}
+
+.hr-div{
+	margin-top: 1px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: 1px solid #DBDBDB;
+}
+
+.post-link{
+	    margin-bottom: 26px;
+}
+
+.icon-size{
+	font-size: 1.5em!important;
+}
+
+.post-link{
+	font-size: 15px;
+}
+
+.btn-all-posts{
+	text-align: center;
+	width: 100%!important;
+	padding: 55px 20px 54px;
+	
+	color: black;
+	text-decoration: underline;
+}
+
+.btn-all-posts a{
+	font-size: 1.5em;
+    color: black;
+    text-decoration: underline;
+
+	
+}
+
+   
+/* ========================== Rodape =============================*/
+
+.rodape{
+	width: 100%;
+	height: 150px;
+	padding-top: 27px;
+	background-color: rgb(42,58,63);
+	display: -webkit-flex;
+	 display:         flex;
+	  -webkit-align-items: center;
+	          align-items: center;
+	  -webkit-justify-content: center;
+	          justify-content: center;
+	          flex-direction: column;
+	          -webkit-flex-direction: column;
+}
+
+.rodape p{
+	text-align: center;
+	color: white;
+	font-size: 14px;
+}
+
+.icon-menu{
+	padding: 0px;
+
+}
+/* ==================== bootstrap ====================*/
+
+.row {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/* ==================== bootstrap ====================*/
+.div-form{
+	max-width: 100%;
+	height: 400px;
+	background-color: white;
+	display: -webkit-flex;
+	 display:         flex;
+	  -webkit-align-items: center;
+	          align-items: center;
+	  -webkit-justify-content: center;
+	          justify-content: center; 
+	          
+}
+
+/*_-------------------------------------------------------------------_*/
+.form-main{
+	width: 100%;
+	display: -webkit-flex;
+	 display:         flex;
+	  -webkit-align-items: center;
+	          align-items: center;
+	  -webkit-justify-content: center;
+	          justify-content: center; 
+	height: auto;   
+	background-color: rgb(240,247,255);     
+}
+
+
+
+/* ------------------------- Media queries ----------------------------*/
+
+@media screen and (min-width: 50em) {
+  .portfolio a {
+    width: calc(25% - 6px);
+  }
+  
+ .portfolio a:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+  
+  .portfolio a:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+.portfolio a:hover img {
+  transform: scale(1.15);
+}
+
+figure {
+  margin: 0;
+  overflow: hidden;
+}
+
+figcaption {
+  margin-top: 15px;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform .2s ease-in-out;
+}
+
+.p a {
+  display: inline;
+  font-size: 13px;
+  margin: 0;
+  text-decoration: underline;
+  color: blue;
+}
+
+.p {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 100px;
+}
+
+
+@media only screen and (max-width : 640px) {
+
+	header {
+
+		position: absolute;
+
+	}
+
+	#menu-icon {
+
+		display:inline-block;
+
+	}
+
+	nav ul, nav:active ul { 
+
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+
+	}
+
+	nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+
+	}
+
+	nav:hover ul {
+
+		display: block;
+
+	}
+
+}
+
+@media screen and (max-width: 728px){
+	.latest-posts{flex-direction:  column;}
+	/*Responsável por manter em coluna a parte do blogem resoluções pequenas*/
+}
+
