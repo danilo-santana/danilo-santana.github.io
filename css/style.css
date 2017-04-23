@@ -6,13 +6,19 @@
           box-sizing: border-box!important;
 }
 
-h1, p {
+h1{
 	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+	
 }
 
 h2{
 	font-family: 'Lato', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 /* =================================================================================== */
@@ -66,7 +72,6 @@ header {
 	float: left;
 	width: 200px;
 	height: 40px;
-	background: url(../img/logo.png) no-repeat center;
 	background-color: black;
 	display: block;
 
@@ -75,7 +80,7 @@ header {
 nav {
 
 	float: right;
-	padding: 20px;	
+	padding: 22px;	
 
 }
 
@@ -84,7 +89,7 @@ nav {
 	display: hidden;
 	width: 40px;
 	height: 40px;
-	background: #4C8FEC url(../img/menu-icon.png) center;
+	background: url(../images/menu.png) no-repeat center;
 
 }
 
@@ -133,12 +138,53 @@ li {
 
 }
 
-.res-div {
-	width: 45%;
-	height: 400px;
-	background-color: black;
-	margin: 0 auto;
+.fst-div h2{
+	text-align: center;
+	text-align: center;
+    font-weight: 900;
+    color: white;
+    font-size: 46px;
+}
 
+.res-div {
+	
+	height: 400px;
+	margin: 0 auto;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+
+}
+
+.img-profile{
+		width: 224px; 
+		height: 214px; 
+		border-radius: 50%; 
+		margin: 0 auto;
+	    border: 7px solid white;
+}
+
+.res-div p{
+		text-align: center;
+	    text-align: center;
+	    font-size: 16px;
+	    color: white;
+}
+
+.hire-btn{
+
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 37px 10px 37px;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 12px;
+    border: 1px solid #f1f1f1;
 }
 
 .button {
@@ -677,7 +723,7 @@ img {
 
 	header {
 
-		position: absolute;
+		position: fixed;
 
 	}
 
@@ -693,11 +739,11 @@ img {
 		position: absolute;
 		padding: 20px;
 		background: #fff;
-		border: 5px solid #444;
+		border: 1px solid #444;
 		right: 20px;
 		top: 60px;
 		width: 50%;
-		border-radius: 4px 0 4px 4px;
+		border-radius: 2px;
 
 	}
 
