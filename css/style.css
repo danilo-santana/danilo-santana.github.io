@@ -19,7 +19,8 @@ li{display:inline-block;float:left;padding:10px}
 .res-div{height:400px;margin:0 auto;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;flex-direction:column;-webkit-flex-direction:column;}
 .img-profile{width:224px;height:214px;border-radius:50%;margin:0 auto;border:7px solid white;}
 .res-div p{text-align:center;text-align:center;font-size:16px;color:white;}
-.hire-btn{text-align:center;margin-top:20px;padding:10px 37px 10px 37px;background-color:white;border-radius:15px;font-size:12px;border:1px solid #f1f1f1;}
+.hire-btn{-webkit-transition: all 0.5s linear;-moz-transition: all 0.5s linear;-o-transition: all 0.5s linear;transition: all 0.5s linear;text-align:center;margin-top:20px;padding:10px 37px 10px 37px;background-color:white;border-radius:15px;font-size:12px;border:1px solid #f1f1f1;}
+.hire-btn:hover{-webkit-box-shadow: 0px 0px 7px 1px #d3d3d3;-moz-box-shadow: 0px 0px 7px 1px #d3d3d3;box-shadow: 0px 0px 7px 1px #d3d3d3;background-color: white;color: #48abfb;}
 .button{background-color:#4CAF50;border:none;color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;margin:0 auto;cursor:pointer;}
 .about{width:100%;height:330px;background-color:white;display:table;}
 .about h1{text-align:center;padding-top:58px;background-color:transparent;margin-top:0px;padding-bottom:43px;font-size:40px;}
