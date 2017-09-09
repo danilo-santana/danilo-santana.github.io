@@ -86,6 +86,8 @@ li{display:inline-block;float:left;padding:10px}
 .div-form{max-width:100%;height:400px;background-color:white;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;}
 .form-main{width:100%;display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;height:auto;background-color:rgb(240,247,255);}
 
+/* Circulo das imagens */
+
 .roundImg{
 	
 	/*Styles*/
@@ -97,6 +99,43 @@ li{display:inline-block;float:left;padding:10px}
     padding: 13px 8px 13px 8px;
 
 }
+
+/* Circulo das imagens*/
+
+/* Nessa parte temos o CSS responsável pelo formulario */
+
+.section-form{
+	padding: 50px;
+}
+
+.contact-form{
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+}
+
+.form-legend{
+	margin: 10px 0px 50px 0px;
+}
+
+.contact-form input, .contact-form textarea{
+	padding: 25px;
+	font-size: 16px;
+	border-radius: 8px;
+}
+
+.btn-send{
+	padding: 16px 25px;
+	border-radius: 28px;
+}
+
+textarea{
+	resize: none;
+}
+
+
+/* Nessa parte temos o CSS responsável pelo formulario */
 
 @media screen and (min-width:50em){.portfolio a{width:calc(25% - 6px);}
 .portfolio a:nth-of-type(2n){margin-right:8px;}
