@@ -132,7 +132,7 @@ li{display:inline-block;float:left;padding:10px}
 .contact-form input, .contact-form textarea{
 	padding: 25px;
 	font-size: 16px;
-	border-radius: 8px;
+	border-radius: 2px;
 }
 
 .btn-send{
