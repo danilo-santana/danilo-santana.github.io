@@ -147,6 +147,17 @@ textarea{
 
 /* Nessa parte temos o CSS responsável pelo formulario */
 
+
+/* CSS responsavel pelo HR embaixo dos H1s da página */
+
+.hr-blue{
+	margin-top: 15px;
+    margin-bottom: 40px;
+    border: 0;
+    border-top: 3px solid #5b95d7;
+    max-width: 7%;
+}
+
 @media screen and (min-width:50em){.portfolio a{width:calc(25% - 6px);}
 .portfolio a:nth-of-type(2n){margin-right:8px;}
 .portfolio a:nth-of-type(4n){margin-right:0;}
