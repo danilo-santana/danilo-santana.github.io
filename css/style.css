@@ -34,8 +34,8 @@ li{display:inline-block;float:left;padding:10px}
 .work-content{height:327px;padding:10px;}
 .work-content img{-moz-transition:all 0.3s;-webkit-transition:all 0.3s;transition:all 0.3s;}
 .work-content img:hover{-moz-transform:scale(1.1);-webkit-transform:scale(1.1);transform:scale(1.1);opacity:0.9;}
-.work-website{height:227px;-webkit-box-shadow:0px 0px 1px 0px rgb(155,155,155);-moz-box-shadow:0px 0px 1px 0px rgb(155,155,155);box-shadow:0px 0px 1px 0px rgb(155,155,155);}
-.work-website img{height:100%;width:100%;}
+.work-website{height:200px;-webkit-box-shadow:0px 0px 1px 0px rgb(155,155,155);-moz-box-shadow:0px 0px 1px 0px rgb(155,155,155);box-shadow:0px 0px 1px 0px rgb(155,155,155);}
+.work-website img{height:100%;width:100%;image-rendering: -webkit-optimize-contrast;}
 .details-wrap{width:100%;height:auto;-webkit-box-shadow:0px 0px 1px 0px rgb(155,155,155);-moz-box-shadow:0px 0px 1px 0px rgb(155,155,155);box-shadow:0px 0px 1px 0px rgb(155,155,155);}
 .details-name{width:100%;background-color:white;height:51px;padding:10px;}
 .details-link{line-height:33px;font-size:13px;}
