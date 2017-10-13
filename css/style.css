@@ -20,7 +20,7 @@ li{display:inline-block;float:left;padding:10px}
 .img-profile{width:224px;height:214px;border-radius:50%;margin:0 auto;border:7px solid white;}
 .res-div p{text-align:center;text-align:center;font-size:16px;color:white;}
 .hire-btn{-webkit-transition: all 0.5s linear;-moz-transition: all 0.5s linear;-o-transition: all 0.5s linear;transition: all 0.5s linear;text-align:center;margin-top:20px;padding:10px 37px 10px 37px;background-color:white;border-radius:15px;font-size:12px;border:1px solid #f1f1f1;}
-.hire-btn:hover{-webkit-box-shadow: 0px 0px 7px 1px #d3d3d3;-moz-box-shadow: 0px 0px 7px 1px #d3d3d3;box-shadow: 0px 0px 7px 1px #d3d3d3;background-color: white;color: #48abfb;}
+.hire-btn:hover{-webkit-box-shadow: 0px 0px 7px 1px #d3d3d3;-moz-box-shadow: 0px 0px 7px 1px #d3d3d3;box-shadow: 0px 0px 7px 1px #d3d3d3;background-color: #48abfb;color: white;}
 .button{background-color:#4CAF50;border:none;color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:16px;margin:0 auto;cursor:pointer;}
 .about{width:100%;height:330px;background-color:white;display:table;}
 .about h1{text-align:center;padding-top:58px;background-color:transparent;margin-top:0px;padding-bottom:43px;font-size:40px;}
@@ -52,7 +52,10 @@ li{display:inline-block;float:left;padding:10px}
 .hireme{width:100%;height:auto;background-color:rgb(54, 149, 255);display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;flex-direction:row;-webkit-flex-direction:row;}
 .hireme p{text-align:center;line-height:80px;font-size:25px;color:white;font-weight:lighter;padding:10px 0px 10px 0px;margin:0px;}
 .hireme span{font-weight:bold;}
-.btn-hire{padding:10px 37px 10px 37px;background-color:white;border-radius:15px;font-size:12px;margin-left:34px;border:1px solid #f1f1f1;}
+.btn-work{padding:10px 37px 10px 37px;background-color:white;border-radius:15px;font-size:12px;margin-left:34px;border:1px solid #f1f1f1;-webkit-transition: all 0.5s linear; -moz-transition: all 0.5s linear; -o-transition: all 0.5s linear; transition: all 0.5s linear;}
+.btn-work a{color: #48abfb;}
+.btn-work:hover a{color: white;}
+.btn-work:hover{background-color: #48abfb; }
 .clients{width:100%;height:300px;background-color:rgb(240,247,255);display:-webkit-flex;display:flex;-webkit-align-items:center;align-items:center;-webkit-justify-content:center;justify-content:center;}
 .clients h1{text-align:center;}
 .clients-list{padding:5px 0;display:table;margin:0 auto;}
@@ -157,6 +160,19 @@ textarea{
     border-top: 3px solid #5b95d7;
     max-width: 7%;
 }
+
+/* CSS responsavel pelo Typewritter js */
+
+#app{
+	padding: 10px 5px 5px 5px;
+}
+
+#app span{
+	font-size: 25px;
+	color: white;
+}
+
+/* CSS responsavel pelo Typewritter js */
 
 @media screen and (min-width:50em){.portfolio a{width:calc(25% - 6px);}
 .portfolio a:nth-of-type(2n){margin-right:8px;}
