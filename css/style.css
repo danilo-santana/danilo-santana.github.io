@@ -14,6 +14,12 @@ p {
     font-family: 'Lato', sans-serif;
 }
 
+p::selection{
+
+    background-color: black;
+    color: white;
+}
+
 h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -51,15 +57,25 @@ header {
     border-bottom: 1px solid #fff;
     z-index: 100;
     box-shadow: 0 2px 2px -2px gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 #logo {
     margin: 20px;
     float: left;
-    width: 200px;
-    height: 40px;
-    background-color: black;
     display: block;
+    font-size: 35px;
+}
+
+#logo::before{
+    content: "<";
+}
+
+#logo::after{
+    content: "/>";
 }
 
 nav {
@@ -79,11 +95,11 @@ a:hover#menu-icon {
     border-radius: 4px 4px 0 0;
 }
 
-ul {
+.main-nav {
     list-style: none;
 }
 
-li {
+.nav-item{
     display: inline-block;
     float: left;
     padding: 10px
@@ -93,7 +109,7 @@ li {
     color: #2262AD;
 }
 
-.fst-div {
+.perfil-wrapper {
     width: 100%;
     height: 550px;
     background-color: rgb(70, 156, 255);
@@ -103,9 +119,10 @@ li {
     align-items: center;
     -webkit-justify-content: center;
     justify-content: center;
+    
 }
 
-.fst-div h2 {
+.perfil-wrapper h2 {
     text-align: center;
     text-align: center;
     font-weight: 900;
@@ -113,7 +130,7 @@ li {
     font-size: 46px;
 }
 
-.res-div {
+.resume-container {
     height: 400px;
     margin: 0 auto;
     display: -webkit-flex;
@@ -134,7 +151,7 @@ li {
     border: 7px solid white;
 }
 
-.res-div p {
+.resume-container p {
     text-align: center;
     text-align: center;
     font-size: 16px;
@@ -599,7 +616,7 @@ li {
 
 /* Estilos do menu de navegação */
 
-.fst-nav a {
+.nav-wrapper a {
     font-weight: 500;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
@@ -742,8 +759,8 @@ img {
     #menu-icon {
         display: inline-block;
     }
-    nav ul,
-    nav:active ul {
+    nav .main-nav,
+    nav:active .main-nav {
         display: none;
         position: absolute;
         padding: 20px;
@@ -754,13 +771,13 @@ img {
         width: 50%;
         border-radius: 2px;
     }
-    nav li {
+    nav .nav-item {
         text-align: center;
         width: 100%;
         padding: 10px 0;
         margin: 0;
     }
-    nav:hover ul {
+    nav:hover .main-nav {
         display: block;
     }
 }
