@@ -14,14 +14,14 @@
 
 	<!-- SEO Geral -->
 	<title>Título da página</title>
-	<meta name="description" content="Desenvolvedor Front End Junior em Busca de desenvolver minhas habilidades">
+	<meta name="description" content="Desenvolvedor Front End Junior em Busca de aprimorar minhas habilidades">
 	<link rel="canonical" href="https://danilogila.github.io/">
 	<meta name="author" content="Danilo Gila de Santana">
 	<meta name="robots" content="index">
 
 	<!-- Open Graph Facebook -->
 	<meta property="og:title" content="Danilo Gila - Front End">
-	<meta property="og:description" content="Desenvolvedor Front End Junior em Busca de desenvolver minhas habilidades" />
+	<meta property="og:description" content="Desenvolvedor Front End Junior em Busca de aprimorar minhas habilidades" />
 	<meta property="og:url" content="Link da página">
 	<meta property="og:site_name" content="Danilo Gila - Front End Junior" />
 	<meta property="og:type" content="danilogila.github.io">
@@ -34,19 +34,31 @@
 	<div style="background: transparent; width: 100%; height: 76px;"></div>
 	<header>
 
-		<a href="#" id="logo"></a>
+		<a href="#" id="logo">
+			<span class="firstname">Danilo</span> Gila
+		</a>
 
-		<nav class="fst-nav">
+		<nav class="nav-wrapper">
 
 			<a href="#" id="menu-icon"></a>
 
-			<ul>
+			<ul class="main-nav">
 
-				<li><a href="#home" class="current">Inicio</a></li>
-				<li><a href="#about">Sobre</a></li>
-				<li><a href="#habilidades">Habilidades</a></li>
-				<li><a href="#port">Portfolio</a></li>
-				<li><a href="#contact">Contato</a></li>
+				<li class="nav-item">
+					<a href="#home" class="current">Inicio</a>
+				</li>
+				<li class="nav-item">
+					<a href="#about">Sobre</a>
+				</li>
+				<li class="nav-item">
+					<a href="#habilidades">Habilidades</a>
+				</li>
+				<li class="nav-item">
+					<a href="#port">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a href="#contact">Contato</a>
+				</li>
 
 			</ul>
 
@@ -54,9 +66,9 @@
 
 	</header>
 
-	<section class="fst-div">
+	<section class="perfil-wrapper">
 
-		<div class="res-div">
+		<div class="resume-container">
 			<img src="images/profile.png" class="img-profile">
 			<h2>Danilo Gila de Santana</h2>
 			<p>Desenvolvedor Web - Designer - Java Web</p>
@@ -67,10 +79,10 @@
 
 	<section class="about container" id="about">
 		<h1>Sobre Mim</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-			irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-			non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<h3>Olá, me chamo Danilo Gila de Santana. Sou <strong>Desenvolvedor Web</strong> e atualmente estou me graduando em Ciência
+			da Computação pela <a href="http://www.uezo.rj.gov.br/" target="_blank">UEZO</a> (Centro Universitário Estadual da Zona Oeste) que está localizada no Rio de Janeiro. Há algum tempo, venho construindo alguns
+			projetos interessantes focado no Front End para estudo e trabalho. Sou apaixonado por <strong>música</strong>, <strong>games</strong> e <strong>café</strong>  ;)
+		</h3>
 	</section>
 
 	<section class="skills" id="habilidades">
@@ -169,12 +181,16 @@
 				<div class="details-wrap">
 					<div class="details-name">
 						<a href="http://landgig.surge.sh" class="details-link" target="_blank">LandGig - Landing Page</a>
-						<p>Seguindo fielmente um layout, LandGig está sendo desenvolvido com o objetivo de treinar minhas habilidades com JS, HTML e CSS.</p>
+						<p>Seguindo fielmente um layout, LandGig está sendo desenvolvido com o objetivo de treinar minhas habilidades com JS,
+							HTML e CSS.</p>
 					</div>
 
 					<div class="details-tec">
-						<span class="right">#HTML+CSS</span><span class="left">
-			  			<i class="git-icon fa fa-github fa-2x" aria-hidden="true"></i><a href="https://github.com/danilogila/Tank-App---Landing-Page" target="_blank">Repository</a></span>​
+						<span class="right">#HTML+CSS</span>
+						<span class="left">
+							<i class="git-icon fa fa-github fa-2x" aria-hidden="true"></i>
+							<a href="https://github.com/danilogila/Tank-App---Landing-Page" target="_blank">Repository</a>
+						</span>​
 					</div>
 				</div>
 
@@ -189,12 +205,16 @@
 				<div class="details-wrap">
 					<div class="details-name">
 						<a href="http://uezo-app.surge.sh/" class="details-link" target="_blank">UEZO App - Noticias & Novidades</a>
-						<p>UEZO APP é um projeto realizado por alunos da faculdade UEZO. Nesse projeto, construi uma landing page para divulgação do Aplicativo no meio acadêmico.</p>
+						<p>UEZO APP é um projeto realizado por alunos da faculdade UEZO. Nesse projeto, construi uma landing page para divulgação
+							do Aplicativo no meio acadêmico.</p>
 					</div>
 
 					<div class="details-tec">
-						<span class="right">#Angular+HTML+CSS</span><span class="left">
-			  			<i class="git-icon fa fa-github fa-2x" aria-hidden="true"></i><a href="https://github.com/danilogila/UEZOApp---Landing-Page" target="_blank">Repository</a></span>​
+						<span class="right">#Angular+HTML+CSS</span>
+						<span class="left">
+							<i class="git-icon fa fa-github fa-2x" aria-hidden="true"></i>
+							<a href="https://github.com/danilogila/UEZOApp---Landing-Page" target="_blank">Repository</a>
+						</span>​
 					</div>
 				</div>
 
@@ -209,12 +229,16 @@
 				<div class="details-wrap">
 					<div class="details-name">
 						<a href="https://www.nutrichemlabs.net/" class="details-link" target="_blank">Nutrichem Labs - Nutritional Supplements</a>
-						<p>Nutrichem Labs é uma loja virtual de suplementos voltado para o publico norte-americano. O desenvolvimento foi feito utilizando a plataforma Shopify e a linguagem Liquid.</p>
+						<p>Nutrichem Labs é uma loja virtual de suplementos voltado para o publico norte-americano. O desenvolvimento foi feito
+							utilizando a plataforma Shopify e a linguagem Liquid.</p>
 					</div>
 
 					<div class="details-tec">
-						<span class="right">#Liquid+HTML+CSS</span><span class="left">
-			  			<i class="git-icon fa fa-github fa-2x" aria-hidden="true"></i><a href="#">Repository</a></span>​
+						<span class="right">#Liquid+HTML+CSS</span>
+						<span class="left">
+							<i class="git-icon fa fa-github fa-2x" aria-hidden="true"></i>
+							<a href="#">Repository</a>
+						</span>​
 					</div>
 				</div>
 
@@ -230,12 +254,16 @@
 				<div class="details-wrap">
 					<div class="details-name">
 						<a href="http://secret-of-mana.surge.sh/" target="_blank" class="details-link">Secret of Mana - Fan Site</a>
-						<p>Secret of Mana é uma franquia de video games muito famosa. Sendo um fã, resolvi criar uma landing page para demonstrar minha paixão pela franquia :)</p>
+						<p>Secret of Mana é uma franquia de video games muito famosa. Sendo um fã, resolvi criar uma landing page para demonstrar
+							minha paixão pela franquia :)</p>
 					</div>
 
 					<div class="details-tec">
-						<span class="right">#HTML+CSS</span><span class="left">
-			  			<i class="git-icon fa fa-github fa-2x" aria-hidden="true"></i><a href="https://github.com/danilogila/Secret-of-Mana" target="_blank">Repository</a></span>​
+						<span class="right">#HTML+CSS</span>
+						<span class="left">
+							<i class="git-icon fa fa-github fa-2x" aria-hidden="true"></i>
+							<a href="https://github.com/danilogila/Secret-of-Mana" target="_blank">Repository</a>
+						</span>​
 					</div>
 				</div>
 
@@ -250,12 +278,39 @@
 				<div class="details-wrap">
 					<div class="details-name">
 						<a href="#" target="_blank" class="details-link">MovieRise</a>
-						<p>MovieRise é uma aplicação que tem como objetivo acompanhar os lançamentos do cinema. A aplicação esté em desenvolvimento e estou trabalhando com Angular, HTML e CSS.</p>
+						<p>MovieRise é uma aplicação que tem como objetivo acompanhar os lançamentos do cinema. A aplicação esté em desenvolvimento
+							e estou trabalhando com Angular, HTML e CSS.</p>
 					</div>
 
 					<div class="details-tec">
-						<span class="right">#HTML+CSS</span><span class="left">
-								  <i class="git-icon fa fa-github fa-2x" aria-hidden="true"></i><a href="https://github.com/danilogila/Secret-of-Mana" target="_blank">Repository</a></span>​
+						<span class="right">#HTML+CSS</span>
+						<span class="left">
+							<i class="git-icon fa fa-github fa-2x" aria-hidden="true"></i>
+							<a href="https://github.com/danilogila/Secret-of-Mana" target="_blank">Repository</a>
+						</span>​
+					</div>
+				</div>
+
+			</div>
+
+			<div class="col-md-4 col-xs-12 col-sm-6 work-content">
+
+				<figure class="work-website">
+					<img src="images/pokedash.PNG" alt="Imagem do Site PokeDash">
+				</figure>
+
+				<div class="details-wrap">
+					<div class="details-name">
+						<a href="#" target="_blank" class="details-link">PokeDash</a>
+						<p>PokeDash é um projeto que visa construir uma PokeDex online através do consumo da PokeAPI com Vanilla JavaScript.</p>
+					</div>
+
+					<div class="details-tec">
+						<span class="right">#HTML+CSS+JS</span>
+						<span class="left">
+							<i class="git-icon fa fa-github fa-2x" aria-hidden="true"></i>
+							<a href="https://github.com/danilogila/PokeDash" target="_blank">Repository</a>
+						</span>​
 					</div>
 				</div>
 
@@ -314,7 +369,12 @@
 
 
 	<section class="hireme">
-		<p>Precisa de um desenvolvedor? <span>Ao Trabalho!</span></p><button class="btn-work" id="teste"><a href="#">Fale Comigo</a></button>
+		<p>Precisa de um desenvolvedor?
+			<span>Ao Trabalho!</span>
+		</p>
+		<button class="btn-work" id="teste">
+			<a href="#">Fale Comigo</a>
+		</button>
 	</section>
 
 	<section class="section-form" id="contact">
@@ -335,9 +395,21 @@
 	<footer class="rodape">
 		<p>Made by Danilo Santana © 2017.</p>
 		<ul class="icon-menu">
-			<li><a target="_blank" href="https://www.facebook.com/profile.php?id=100010110587300"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
-			<li><a target="_blank" href="https://www.linkedin.com/in/danilo-gila-de-santana-306338106/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
-			<li><a target="_blank" href="https://github.com/danilogila"><i class="fa fa-github fa-2x" aria-hidden="true"></i> </a></li>
+			<li>
+				<a target="_blank" href="https://www.facebook.com/profile.php?id=100010110587300">
+					<i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+				</a>
+			</li>
+			<li>
+				<a target="_blank" href="https://www.linkedin.com/in/danilo-gila-de-santana-306338106/">
+					<i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+				</a>
+			</li>
+			<li>
+				<a target="_blank" href="https://github.com/danilogila">
+					<i class="fa fa-github fa-2x" aria-hidden="true"></i>
+				</a>
+			</li>
 		</ul>
 	</footer>
 
