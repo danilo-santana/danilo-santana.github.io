@@ -63,7 +63,6 @@ header {
     float: left;
     display: block;
     font-size: 35px;
-<<<<<<< HEAD
     font-family: oswaldregular;
     font-weight: bold;
     color: #4C9CF1;
@@ -71,16 +70,6 @@ header {
 
 .firstname{
     color: black;
-=======
-}
-
-#logo::before{
-    content: "<";
-}
-
-#logo::after{
-    content: "/>";
->>>>>>> 6b43401c7d746b93286cbfecb7e5d9af3c602620
 }
 
 
