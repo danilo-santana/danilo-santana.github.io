@@ -592,6 +592,14 @@ a:hover#menu-icon {
 
 .icon-menu {
     padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.icon-menu li{
+    margin: 0px 10px 0px 10px;
 }
 
 .row {
