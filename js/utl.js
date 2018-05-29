@@ -13,7 +13,7 @@ $('nav a').click(function(e){
 
 // Esse treco evita o botão em cima da section "Fale comigo" de fazer o submit padrão
 
-document.getElementById("teste").addEventListener("click", function(event){
+document.querySelector(".btn-work").addEventListener("click", function(event){
 	event.preventDefault();
 
 });
